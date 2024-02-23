@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+TC|Open+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC&family=Noto+Serif+TC:wght@500&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="../picture/favicon.ico" type="image/x-icon">
+    <title>長順茶業 - 田野調查與田間管理</title>
+  </head>
+
+<body>
+  <header>
+    <div class='container'>
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="../index.html"><img src='../picture/farmer_logo2.png' width='100'></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-h5="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="../index.html">首頁</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="../farmer/farmer_task_table.html">工作任務</a>
+          </ul>
+          <div class="form-inline my-2 my-lg-0">
+            <ul class="navbar-nav">
+              <li class="nav-item dropdown">
+                <a class="nav-link" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                  aria-haspopup="true" aria-expanded="false">
+                  <svg class='someright' width="24" height="24" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd"
+                    clip-rule="evenodd">
+                    <path
+                      d="M13.033 2v-2l10 3v18l-10 3v-2h-9v-7h1v6h8v-18h-8v7h-1v-8h9zm1 20.656l8-2.4v-16.512l-8-2.4v21.312zm-3.947-10.656l-3.293-3.293.707-.707 4.5 4.5-4.5 4.5-.707-.707 3.293-3.293h-9.053v-1h9.053z" />
+                  </svg> 登入
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="../signin/signin_farmer.html">農民登入</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="../signin/signin_company.html">公司登入</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section id='latest'>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-10 offset-1 col-md-6  offset-md-3  justify-content-around" id="searching2">
+          <form>
+            <div>
+              <input type="text" class="form-control " id="exampleFormControlInput1" placeholder="任務名稱/狀態/工作內容">
+              <svg clip-rule="evenodd" fill-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"
+                viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="m15.97 17.031c-1.479 1.238-3.384 1.985-5.461 1.985-4.697 0-8.509-3.812-8.509-8.508s3.812-8.508 8.509-8.508c4.695 0 8.508 3.812 8.508 8.508 0 2.078-.747 3.984-1.985 5.461l4.749 4.75c.146.146.219.338.219.531 0 .587-.537.75-.75.75-.192 0-.384-.073-.531-.22zm-5.461-13.53c-3.868 0-7.007 3.14-7.007 7.007s3.139 7.007 7.007 7.007c3.866 0 7.007-3.14 7.007-7.007s-3.141-7.007-7.007-7.007z"
+                  fill-rule="nonzero" />
+              </svg>
+            </div>
+          </form>
+        </div>
+      </div>
+      <div class='row'>
+
+        <div class='col-md-12 text-center'>
+
+          <div class="text-center">
+            <h3>農民工作任務</h3>
+            <p class="farmertag">A01-吳偉雄</p>
+          </div>
+          <div class="row sortingwrapper">
+            <div class="form-group">
+              <select class="form-control" id="sorting">
+                <option>全部任務</option>
+                <option>未完成</option>
+                <option>未審核</option>
+                <option>未通過</option>
+                <option>已完成</option>
+              </select>
+            </div>
+          </div>
+          <p class="viewTag2">耕地編號：C01</p>
+          <div class="row">
+            <div class="col-6 col-md-6 text-left">
+              <h4>耕地名：農舍正後方田地</h4>
+            </div>
+            <div class="col-6 col-md-6 text-right">
+              <h4>地址：台中市神岡區大洲路120號</h4>
+            </div>
+          </div>
+          <!-- table1 -->
+          <div id="table" class=' table text-center'>
+
+
+            <!-- table -->
+            <table class="table table-striped" overflow="auto">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">執行時程</th>
+                  <th scope="col">工作事項</th>
+                  <th scope="col">狀態</th>
+                  <th scope="col">完成時間</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="jump">
+                  <input type="hidden" value="farmer_task_single.html" />
+                  <th scope="row">1</th>
+                  <td>2023-12-25</td>
+                  <td>除蟲</td>
+                  <td><span class="thetag">未完成</span></td>
+                  <td></td>
+                </tr>
+                <tr class="jump">
+                  <input type="hidden" value="farmer_task_single2.html" />
+                  <th scope="row">2</th>
+                  <td>2023-12-27~2023-12-31</td>
+                  <td>澆水拔草</td>
+                  <td> <span class="passed-tag">已完成</span> </td>
+                  <td>完成時間：2023-12-29</td>
+                </tr>
+                <tr class="jump">
+                  <input type="hidden" value="farmer_task_single3.html" />
+                  <th scope="row">3</th>
+                  <td>2023-11-30</td>
+                  <td>收成茶葉</td>
+                  <td><span class="noreview-tag">未審核</span></td>
+                  <td></td>
+                </tr>
+
+                <tr class="jump">
+                  <input type="hidden" value="farmer_task_single4.html" />
+                  <th scope="row">4</th>
+                  <td>2023-9-23~2023-10-1</td>
+                  <td>整理環境</td>
+                  <td> <span class="nopass-tag">未通過</span> </td>
+                  <td></td>
+                </tr>
+
+              </tbody>
+            </table>
+
+          </div>
+          <hr style="margin: 50px 0px;">
+
+          <!-- table1 finish -->
+          <!-- table2 start -->
+          <p class="viewTag2">耕地編號：C02</p>
+          <div class="row">
+            <div class="col-6 col-md-6 text-left">
+              <h4>耕地名：電線桿正後方田地</h4>
+            </div>
+            <div class="col-6 col-md-6 text-right">
+              <h4>地址：台中市神岡區大洲路299號</h4>
+            </div>
+          </div>
+          <div id="table" class=' table text-center'>
+
+            <!-- table -->
+            <table class="table table-striped" overflow="auto">
+              <thead>
+                <tr>
+                  <th scope="col">#</th>
+                  <th scope="col">執行時程</th>
+                  <th scope="col">工作事項</th>
+                  <th scope="col">狀態</th>
+                  <th scope="col">完成時間</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr class="jump">
+                  <input type="hidden" value="farmer_task_single.html" />
+                  <th scope="row">1</th>
+                  <td>2023-12-25</td>
+                  <td>除蟲</td>
+                  <td><span class="thetag">未完成</span></td>
+                  <td></td>
+                </tr>
+                <tr class="jump">
+                  <input type="hidden" value="farmer_task_single2.html" />
+                  <th scope="row">2</th>
+                  <td>2023-12-27~2023-12-31</td>
+                  <td>澆水拔草</td>
+                  <td> <span class="passed-tag">已完成</span> </td>
+                  <td>完成時間：2023-12-29</td>
+                </tr>
+                <tr class="jump">
+                  <input type="hidden" value="farmer_task_single3.html" />
+                  <th scope="row">3</th>
+                  <td>2023-11-30</td>
+                  <td>收成茶葉</td>
+                  <td><span class="noreview-tag">未審核</span></td>
+                  <td></td>
+                </tr>
+
+                <tr class="jump">
+                  <input type="hidden" value="farmer_task_single4.html" />
+                  <th scope="row">4</th>
+                  <td>2023-9-23~2023-10-1</td>
+                  <td>整理環境</td>
+                  <td> <span class="nopass-tag">未通過</span> </td>
+                  <td></td>
+                </tr>
+
+              </tbody>
+            </table>
+          </div>
+          <!-- table2 finish -->
+
+
+        </div>
+
+      </div>
+    </div>
+    <!-- end row -->
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class='row'>
+
+        <div class='col-12 col-md-6 offset-md-3 text-center'>
+          <hr style="width: 600;">
+          <ul>
+            <li>
+              <h4>工作任務</h4>
+            </li>
+            <li>
+              <a href="farmer_task_table.html">全部任務</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class='col-12 col-md-12 text-center'>
+          <img src='../picture/farmer_logo3.png' width='250'>
+        </div>
+      </div>
+
+
+    </div>
+    <div class="footer">
+      <div class="container">
+        <div class='row'>
+          <div class='col-md-12 text-center'>
+            <h4>華越資通企管顧問有限公司</h4>
+            <p>台中市西屯區中工二路120號 / 統編：54909107</p>
+            <p>電話：04-23586802/信箱：bm888@ms39.hinet.net</p>
+            <p>© 2024 Design By 華越資通</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+
+</html>
+<script>
+  // tr無法加a跳轉，用input加jQuery
+  $(".jump").click(function () {
+    location.href = $(this).children("input").attr("value");
+  });
+</script>
